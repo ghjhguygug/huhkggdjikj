@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>应用下载导航</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:system-ui, sans-serif}
+html,body{height:100%;background:#f5f7fa}
+.container{max-width:900px;margin:0 auto;padding:20px;min-height:100%}
+.header{text-align:center;padding:30px 0}
+.header h1{font-size:28px;color:#222}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px}
+.card{background:#fff;border-radius:16px;padding:25px;display:flex;flex-direction:column;align-items:center;text-decoration:none;color:#333;box-shadow:0 4px 12px rgba(0,0,0,0.06);transition:all .2s}
+.card:hover{transform:translateY(-4px)}
+.icon{width:80px;height:80px;background:#007bff;border-radius:16px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:16px;font-weight:bold;margin-bottom:16px}
+.name{font-size:18px;margin-bottom:8px}
+.desc{font-size:14px;color:#666;margin-bottom:20px}
+.btn{background:#007bff;color:#fff;padding:10px 22px;border-radius:8px;font-weight:500}
+</style>
+</head>
+
+<body>
+<div class="container">
+  <div class="header">
+    <h1>应用下载导航</h1>
+  </div>
+
+  <div class="grid">
+    <a class="card" href=" " target="_blank">
+      <div class="icon">应用1</div>
+      <div class="name">应用一</div>
+      <div class="desc">官方安全下载</div>
+      <div class="btn">立即打开</div>
+    </a >
+
+    <a class="card" href="https://www.baidu.com" target="_blank">
+      <div class="icon">应用2</div>
+      <div class="name">应用二</div>
+      <div class="desc">官方安全下载</div>
+      <div class="btn">立即打开</div>
+    </a >
+
+    <a class="card" href="https://www.baidu.com" target="_blank">
+      <div class="icon">应用3</div>
+      <div class="name">应用三</div>
+      <div class="desc">官方安全下载</div>
+      <div class="btn">立即打开</div>
+    </a >
+
+    <a class="card" href="https://www.baidu.com" target="_blank">
+      <div class="icon">应用4</div>
+      <div class="name">应用四</div>
+      <div class="desc">官方安全下载</div>
+      <div class="btn">立即打开</div>
+    </a >
+
+    <a class="card" href="https://www.baidu.com" target="_blank">
+      <div class="icon">应用5</div>
+      <div class="name">应用五</div>
+      <div class="desc">官方安全下载</div>
+      <div class="btn">立即打开</div>
+    </a >
+
+    <a class="card" href="https://www.baidu.com" target="_blank">
+      <div class="icon">应用6</div>
+      <div class="name">应用六</div>
+      <div class="desc">官方安全下载</div>
+      <div class="btn">立即打开</div>
+    </a >
+  </div>
+</div>
+</body>
+</html>
